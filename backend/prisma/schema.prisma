@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["linux-musl-openssl-3.0.x"]
+  previewFeatures = ["selectRelationCount"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Usuarios (para guardar puntuaciones, historial y JWT)
+model User {
+  id          Int       @id @default(autoincrement())
+  email       String    @unique
+  password    String    // hash bcrypt
+  score       Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  games       Game[]
+}
+
+// Juego (una partida)
+model Game {
+  id          Int       @id @default(autoincrement())
+  userId      Int
+  user        User      @relation(fields: [userId], references: [id])
+  currentStep Int       @default(1) // 1-15
+  wonAmount   Int       @default(0)
+  finished    Boolean   @default(false)
+  usedFiftyFifty Boolean @default(false)
+  createdAt   DateTime  @default(now())
+}
+
+// Preguntas
+model Question {
+  id          Int      @id @default(autoincrement())
+  level       Int      // 1-15 (dificultad según premio)
+  question    String
+  // cada opción tiene texto y flag `isCorrect`
+  options     Option[]
+}
+
+// Cada opción pertenece a una pregunta
+model Option {
+  id          Int       @id @default(autoincrement())
+  questionId  Int
+  question    Question  @relation(fields: [questionId], references: [id])
+  text        String
+  isCorrect   Boolean
+}

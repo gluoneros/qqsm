@@ -1,0 +1,152 @@
+[
+  {
+    "level": 1,
+    "question": "¿Cuál es el valor de 7 × 8?",
+    "options": [
+      { "text": "54", "isCorrect": false },
+      { "text": "56", "isCorrect": true },
+      { "text": "58", "isCorrect": false },
+      { "text": "60", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Si x + 4 = 13, ¿cuál es x?",
+    "options": [
+      { "text": "7", "isCorrect": true },
+      { "text": "8", "isCorrect": false },
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "¿Cuál es la raíz cuadrada de 81?",
+    "options": [
+      { "text": "7", "isCorrect": false },
+      { "text": "8", "isCorrect": false },
+      { "text": "9", "isCorrect": true },
+      { "text": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Resuelve: 2x - 5 = 11",
+    "options": [
+      { "text": "x = 8", "isCorrect": true },
+      { "text": "x = 7", "isCorrect": false },
+      { "text": "x = 9", "isCorrect": false },
+      { "text": "x = 6", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "¿Cuál es el área de un cuadrado con lado 6 cm?",
+    "options": [
+      { "text": "24 cm²", "isCorrect": false },
+      { "text": "30 cm²", "isCorrect": false },
+      { "text": "36 cm²", "isCorrect": true },
+      { "text": "42 cm²", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 6,
+    "question": "Si un triángulo tiene base 10 cm y altura 5 cm, ¿cuál es su área?",
+    "options": [
+      { "text": "25 cm²", "isCorrect": true },
+      { "text": "30 cm²", "isCorrect": false },
+      { "text": "50 cm²", "isCorrect": false },
+      { "text": "15 cm²", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 7,
+    "question": "¿Cuál es el valor de π aproximado?",
+    "options": [
+      { "text": "3.14", "isCorrect": true },
+      { "text": "3.16", "isCorrect": false },
+      { "text": "3.12", "isCorrect": false },
+      { "text": "3.18", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 8,
+    "question": "Resuelve: 3² + 4² = ?",
+    "options": [
+      { "text": "25", "isCorrect": true },
+      { "text": "24", "isCorrect": false },
+      { "text": "26", "isCorrect": false },
+      { "text": "27", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 9,
+    "question": "¿Cuál es el perímetro de un rectángulo de 8 cm x 5 cm?",
+    "options": [
+      { "text": "26 cm", "isCorrect": true },
+      { "text": "30 cm", "isCorrect": false },
+      { "text": "40 cm", "isCorrect": false },
+      { "text": "18 cm", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 10,
+    "question": "Si 2x + 3 = 9, ¿cuál es x?",
+    "options": [
+      { "text": "3", "isCorrect": true },
+      { "text": "2", "isCorrect": false },
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 11,
+    "question": "¿Cuál es el volumen de un cubo con arista 4 cm?",
+    "options": [
+      { "text": "64 cm³", "isCorrect": true },
+      { "text": "32 cm³", "isCorrect": false },
+      { "text": "48 cm³", "isCorrect": false },
+      { "text": "16 cm³", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 12,
+    "question": "Resuelve: 5x - 2 = 18",
+    "options": [
+      { "text": "x = 4", "isCorrect": true },
+      { "text": "x = 3", "isCorrect": false },
+      { "text": "x = 5", "isCorrect": false },
+      { "text": "x = 6", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 13,
+    "question": "¿Cuál es la hipotenusa de un triángulo rectángulo con catetos 5 y 12?",
+    "options": [
+      { "text": "13", "isCorrect": true },
+      { "text": "14", "isCorrect": false },
+      { "text": "15", "isCorrect": false },
+      { "text": "16", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 14,
+    "question": "Si un círculo tiene radio 7 cm, ¿cuál es su área aproximada?",
+    "options": [
+      { "text": "154 cm²", "isCorrect": true },
+      { "text": "140 cm²", "isCorrect": false },
+      { "text": "160 cm²", "isCorrect": false },
+      { "text": "150 cm²", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 15,
+    "question": "¿Cuál es el valor de 10! (factorial de 10)?",
+    "options": [
+      { "text": "3,628,800", "isCorrect": true },
+      { "text": "3,628,000", "isCorrect": false },
+      { "text": "3,629,000", "isCorrect": false },
+      { "text": "3,628,900", "isCorrect": false }
+    ]
+  }
+]
